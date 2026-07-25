@@ -1,0 +1,66 @@
+<svg width="1000" height="1200" viewBox="0 0 1000 1200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="markGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="55%" stop-color="#2979FF"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g transform="translate(500,430)">
+    <circle r="255" fill="none" stroke="url(#markGrad)" stroke-width="60"
+            stroke-linecap="round"
+            stroke-dasharray="1310 370"
+            stroke-dashoffset="140"
+            transform="rotate(90)"
+            filter="url(#glow)"/>
+
+    <rect x="18" y="-31" width="225" height="62" rx="31" fill="url(#markGrad)"/>
+    <rect x="182" y="-31" width="62" height="166" rx="31" fill="url(#markGrad)"/>
+
+    <g stroke="#8FD9FF" stroke-width="4" opacity="0.9">
+      <line x1="-91" y1="-52" x2="-13" y2="-98"/>
+      <line x1="-91" y1="-52" x2="-13" y2="0"/>
+      <line x1="-91" y1="52" x2="-13" y2="0"/>
+      <line x1="-91" y1="52" x2="-13" y2="98"/>
+      <line x1="-13" y1="-98" x2="72" y2="-40"/>
+      <line x1="-13" y1="0" x2="72" y2="-40"/>
+      <line x1="-13" y1="0" x2="72" y2="40"/>
+      <line x1="-13" y1="98" x2="72" y2="40"/>
+    </g>
+    <g fill="#E0F7FF">
+      <circle cx="-91" cy="-52" r="9"/>
+      <circle cx="-91" cy="52" r="9"/>
+      <circle cx="-13" cy="-98" r="9"/>
+      <circle cx="-13" cy="0" r="11"/>
+      <circle cx="-13" cy="98" r="9"/>
+    </g>
+    <g fill="#22D3EE">
+      <circle cx="72" cy="-40" r="11"/>
+      <circle cx="72" cy="40" r="11"/>
+    </g>
+
+    <circle cx="0" cy="-255" r="18" fill="#22D3EE"/>
+    <path d="M 0,-255 L 0,-312" stroke="#22D3EE" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="-180" cy="-180" r="13" fill="#67E8F9"/>
+    <path d="M -180,-180 L -222,-222" stroke="#67E8F9" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="230" cy="147" r="13" fill="#A78BFA"/>
+  </g>
+
+  <text x="500" y="880" text-anchor="middle"
+        font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="112" font-weight="800"
+        fill="#0B1220">Ground Craft<tspan font-size="46" font-weight="700" baseline-shift="50" fill="url(#markGrad)" dx="4">AI</tspan></text>
+
+  <text x="500" y="945" text-anchor="middle"
+        font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="30" font-weight="400" letter-spacing="6"
+        fill="#5B6B82">BUILD · DEPLOY · DISCOVER</text>
+</svg>

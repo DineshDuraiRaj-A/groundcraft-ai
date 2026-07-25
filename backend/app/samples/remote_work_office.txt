@@ -1,0 +1,9 @@
+Remote Work and Productivity: The Case for the Office
+
+Several longitudinal studies of engineering teams have found that in-person collaboration significantly shortens the time it takes to resolve ambiguous technical decisions, since a five-minute whiteboard conversation often replaces a day of back-and-forth messages across time zones. Teams working primarily in-office report fewer duplicated efforts, since it's easier to notice when two people are quietly solving the same problem.
+
+Junior employees in particular benefit from physical proximity to senior colleagues: informal mentorship, the kind that happens by simply overhearing how an experienced engineer debugs a problem, is difficult to replicate over chat. Several companies that fully embraced remote work have since walked it back, citing a measurable slowdown in new-hire ramp-up time and a weakening of team culture over multi-year spans.
+
+Async communication, while useful for documentation, is frequently blamed for decision fatigue — long threads with no clear resolution, where written tone is easily misread. Company leadership at several firms has pointed to declining innovation metrics, such as new patent filings and internal hackathon participation, as a downstream effect of reduced spontaneous interaction between teams that no longer share a building.
+
+Employee satisfaction surveys conducted by these same firms show that once structured in-office collaboration days were reintroduced, cross-team project velocity improved, even though individual employees sometimes reported preferring the flexibility of remote days.

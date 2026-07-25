@@ -1,0 +1,26 @@
+NetLync R400 Router - Setup and Troubleshooting Guide (Excerpt)
+
+Section 2: Initial Setup
+
+2.1 Unboxing and Connections
+The R400 ships with the router unit, a power adapter (12V, 2A), one Ethernet cable, and a quick-start card. Connect the power adapter first, then use the included Ethernet cable to connect your modem to the port labeled "WAN" on the back of the router. Do not use the WAN port for connecting regular devices; use one of the four LAN ports instead.
+
+2.2 First-Time Configuration
+Power on the router and wait approximately 90 seconds for the status light to turn solid blue, indicating the router has finished booting. Connect a laptop or phone to the WiFi network named "NetLync-Setup" (no password required for this initial network). Open a browser and navigate to 192.168.1.1 to reach the setup wizard.
+
+2.3 Changing the Default Password
+During setup, you will be required to set a new admin password. Passwords must be at least 10 characters and include one number and one symbol. The default password "admin" cannot be reused for security reasons.
+
+Section 3: Troubleshooting
+
+3.1 No Internet Connection
+If devices connect to WiFi but show no internet access, first confirm the WAN cable is fully seated in both the modem and the router. Restart the modem, wait 30 seconds, then restart the router. If the issue persists, check the status light: a blinking red light indicates the router cannot detect a signal from the modem, and a blinking orange light indicates an authentication failure with your internet provider.
+
+3.2 Slow WiFi Speeds
+Slow speeds are most commonly caused by channel interference from neighboring networks. The R400 supports both 2.4GHz and 5GHz bands; the 5GHz band offers faster speeds at shorter range, while 2.4GHz offers better range through walls. In the admin panel under Wireless Settings, you can manually switch channels or enable "Auto Channel Selection" to let the router choose the least congested channel automatically.
+
+3.3 Factory Reset
+To perform a factory reset, locate the small recessed button on the bottom of the router labeled "RESET." Using a paperclip, hold the button for 10 seconds until all lights flash simultaneously. This will erase all custom settings, including your WiFi password, and restore the device to its original "NetLync-Setup" state.
+
+Section 4: Warranty
+The R400 carries a 2-year limited hardware warranty from the date of purchase, covering manufacturing defects but not physical damage, power surges, or unauthorized firmware modifications.

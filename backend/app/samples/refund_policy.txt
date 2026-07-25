@@ -1,0 +1,27 @@
+Acme SaaS - Refund Policy
+
+1.0 Overview
+This document describes Acme SaaS's refund policy for all subscription plans, including Starter, Growth, and Enterprise tiers. It applies to purchases made directly through acme.example and does not cover purchases made through third-party resellers, who follow their own terms.
+
+2.0 General Principles
+Acme aims to make refund decisions fair, fast, and predictable. Refunds are handled by the billing team and are typically resolved without needing to contact support more than once.
+
+3.0 Trial Periods
+All new accounts receive a 14-day free trial. No charges occur during the trial period. If a trial converts to a paid plan and the customer cancels within 48 hours of the first charge, a full refund is issued automatically with no request required.
+
+4.0 Refund Eligibility and Timeline
+
+4.1 Eligibility
+Customers on monthly plans are eligible for a refund if they cancel within 7 days of a charge and have used fewer than 100 API calls or 5 exported reports during that billing cycle. Customers on annual plans are eligible for a prorated refund within the first 30 days of the annual charge, regardless of usage.
+
+4.2 Refund Timeline
+Once a refund is approved, funds are issued within 5 business days of approval. Refunds are returned to the original payment method. Bank processing times may add 2-3 additional business days before funds appear in the customer's account.
+
+4.3 Non-Refundable Items
+Setup fees for Enterprise onboarding, custom integration work, and add-on professional services are non-refundable once work has begun.
+
+5.0 How to Request a Refund
+Customers can request a refund from the Billing tab in account settings, or by emailing billing@acme.example with their account ID and reason for the request. Most requests are resolved within 1 business day.
+
+6.0 Disputes
+If a customer disputes a charge with their bank or card issuer before contacting Acme, the account may be suspended pending resolution of the dispute, per standard payment processor requirements.

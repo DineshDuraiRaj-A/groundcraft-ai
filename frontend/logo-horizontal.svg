@@ -1,0 +1,78 @@
+<svg width="1565" height="540" viewBox="-28 168 1565 540" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="markGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="55%" stop-color="#2979FF"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#0B1220"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- ICON: G ring + embedded neural network -->
+  <g transform="translate(230,450)">
+
+    <!-- outer ring forming open G -->
+    <circle r="195" fill="none" stroke="url(#markGrad)" stroke-width="46"
+            stroke-linecap="round"
+            stroke-dasharray="1000 280"
+            stroke-dashoffset="108"
+            transform="rotate(90)"
+            filter="url(#glow)"/>
+
+    <!-- inward bar completing the G -->
+    <rect x="14" y="-24" width="172" height="48" rx="24" fill="url(#markGrad)"/>
+    <rect x="140" y="-24" width="48" height="128" rx="24" fill="url(#markGrad)"/>
+
+    <!-- neural network nodes + connecting lines, nested inside the ring -->
+    <g stroke="#8FD9FF" stroke-width="3" opacity="0.9">
+      <line x1="-70" y1="-40" x2="-10" y2="-75"/>
+      <line x1="-70" y1="-40" x2="-10" y2="0"/>
+      <line x1="-70" y1="40" x2="-10" y2="0"/>
+      <line x1="-70" y1="40" x2="-10" y2="75"/>
+      <line x1="-10" y1="-75" x2="55" y2="-30"/>
+      <line x1="-10" y1="0" x2="55" y2="-30"/>
+      <line x1="-10" y1="0" x2="55" y2="30"/>
+      <line x1="-10" y1="75" x2="55" y2="30"/>
+    </g>
+    <g fill="#E0F7FF">
+      <circle cx="-70" cy="-40" r="7"/>
+      <circle cx="-70" cy="40" r="7"/>
+      <circle cx="-10" cy="-75" r="7"/>
+      <circle cx="-10" cy="0" r="8"/>
+      <circle cx="-10" cy="75" r="7"/>
+    </g>
+    <g fill="#22D3EE">
+      <circle cx="55" cy="-30" r="8"/>
+      <circle cx="55" cy="30" r="8"/>
+    </g>
+
+    <!-- circuit trace accents outside the ring -->
+    <circle cx="0" cy="-195" r="14" fill="#22D3EE"/>
+    <path d="M 0,-195 L 0,-238" stroke="#22D3EE" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="-138" cy="-138" r="10" fill="#67E8F9"/>
+    <path d="M -138,-138 L -170,-170" stroke="#67E8F9" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="176" cy="112" r="10" fill="#A78BFA"/>
+  </g>
+
+  <!-- WORDMARK -->
+  <text x="470" y="500"
+        font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="132" font-weight="800" letter-spacing="0"
+        fill="#0B1220">Ground Craft<tspan font-size="54" font-weight="700" baseline-shift="60" fill="url(#markGrad)" dx="6">AI</tspan></text>
+
+  <!-- tagline -->
+  <text x="474" y="565"
+        font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="32" font-weight="400" letter-spacing="6"
+        fill="#5B6B82">BUILD · DEPLOY · DISCOVER</text>
+</svg>
