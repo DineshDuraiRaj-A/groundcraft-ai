@@ -9,4 +9,4 @@
    Do NOT put a slash "/" at the end.
    ============================================================ */
 
-window.GROUNDCRAFT_API_BASE = "http://localhost:8000";
+window.GROUNDCRAFT_API_BASE = "https://groundcraft-ai.onrender.com";
